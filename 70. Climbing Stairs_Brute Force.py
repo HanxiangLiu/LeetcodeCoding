@@ -1,3 +1,5 @@
+# time complexity: O(2^n). Size of recursion tree will be 2^n
+# Space complexity: O(n). The depth of the recursion tree can go upto n.
 
 class Solution:
     def climbStairs(self, n: int) -> int:
