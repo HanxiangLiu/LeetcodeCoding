@@ -9,3 +9,4 @@
 6. Best Time to Buy and Sell Stock
 7. Maximum Subarray
 8. Range Sum Query - Immutable
+9. Counting Bits
