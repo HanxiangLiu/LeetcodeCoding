@@ -27,14 +27,12 @@ class Solution:
 if __name__ == "__main__":
     value = [3, 2, 0, -4]
     pos = 1
-    nodes = [ListNode(0)] * len(value)
-    for i, val in enumerate(value):
-        nodes[i] = ListNode(val)
-        try:
-            nodes[i].next = nodes[i+1]
-        except IndexError:
-            nodes[i].next = nodes[pos]
-    head = nodes[0]
+    head = ListNode(value[0])
+    current = head
+    for i in range(1, len(value)-1):
+        current.next = ListNode(value[i])
+        current = current.next
+    current.next = head.next
     sol = Solution()
     print(sol.hasCycle(head=head))
 
