@@ -24,7 +24,7 @@ if __name__ == "__main__":
     pos = 1
     head = ListNode(value[0])
     current = head
-    for i in range(1, len(value) - 1):
+    for i in range(1, len(value)):
         current.next = ListNode(value[i])
         current = current.next
     current.next = head.next
