@@ -23,3 +23,4 @@
 19. [744] Find Smallest Letter Greater Than Target
 20. [852] Peak Index in a Mountain Array
 21. [637] Average of Levels in Binary Tree
+22. [111] Minimum Depth of Binary Tree
