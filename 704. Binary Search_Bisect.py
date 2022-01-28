@@ -1,15 +1,11 @@
 # Time Complexity O(logN).
 # Space Complexity O(1) since it's a constant space solution.
+import bisect
+
+
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
-        left, right = 0, len(nums) - 1
-        while left < right:
-            mid = left + (right - left) // 2
-            if nums[mid] < target:
-                left = mid + 1
-            else:
-                right = mid
-        return left if nums[left] == target else -1
+        return bisect.bisect(nums, target)
 
 
 if __name__ == "__main__":
