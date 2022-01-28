@@ -21,3 +21,4 @@
 17. [252] Meeting Rooms
 18. [704] Binary Search
 19. [744] Find Smallest Letter Greater Than Target
+20. [852] Peak Index in a Mountain Array
