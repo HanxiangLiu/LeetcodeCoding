@@ -2,15 +2,15 @@
 
 ---
 
-1. [217] Contains Duplicate
-2. [268] Missing Number
-3. [448] Find All Numbers Disappeared in an Array
-4. [136] Single Number
-5. [070] Climbing Stairs
-6. [121] Best Time to Buy and Sell Stock
-7. [053] Maximum Subarray
-8. [303] Range Sum Query - Immutable
-9. [338] Counting Bits
+01. [217] Contains Duplicate
+02. [268] Missing Number
+03. [448] Find All Numbers Disappeared in an Array
+04. [136] Single Number
+05. [070] Climbing Stairs
+06. [121] Best Time to Buy and Sell Stock
+07. [053] Maximum Subarray
+08. [303] Range Sum Query - Immutable
+09. [338] Counting Bits
 10. [141] Linked List Cycle
 11. [876] Middle of the Linked List
 12. [234] Palindrome Linked List
@@ -25,3 +25,4 @@
 21. [637] Average of Levels in Binary Tree
 22. [111] Minimum Depth of Binary Tree
 23. [100] Same Tree
+24. [112] Path Sum
