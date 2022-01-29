@@ -26,3 +26,4 @@
 22. [111] Minimum Depth of Binary Tree
 23. [100] Same Tree
 24. [112] Path Sum
+25. [104] Maximum Depth of Binary Tree
