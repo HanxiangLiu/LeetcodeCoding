@@ -27,3 +27,4 @@
 23. [100] Same Tree
 24. [112] Path Sum
 25. [104] Maximum Depth of Binary Tree
+26. [543] Diameter of Binary Tree
