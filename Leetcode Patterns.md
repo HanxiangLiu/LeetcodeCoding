@@ -29,3 +29,4 @@
 25. [104] Maximum Depth of Binary Tree
 26. [543] Diameter of Binary Tree
 27. [617] Merge Two Binary Trees
+28. [235] Lowest Common Ancestor of a Binary Search Tree
