@@ -29,16 +29,28 @@ class Solution:
                self.isSubtree(root.right, subRoot)
 
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
-        # q and p are both None
-        if not p and not q:
+        def check(p, q):
+            # q and p are both None
+            if not p and not q:
+                return True
+            # one of p and q is None
+            if not p or not q:
+                return False
+            if p.val != q.val:
+                return False
             return True
-        # one of p and q is None
-        if not p or not q:
-            return False
-        if p.val != q.val:
-            return False
-        return self.isSameTree(p.right, q.right) and \
-               self.isSameTree(p.left, q.left)
+
+        stack = [(p, q), ]
+        while stack:
+            p, q = stack.pop()
+            if not check(p, q):
+                return False
+
+            if p:
+                stack.append((p.left, q.left))
+                stack.append((p.right, q.right))
+
+        return True
 
 
 if __name__ == "__main__":

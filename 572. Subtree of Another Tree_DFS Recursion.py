@@ -22,23 +22,21 @@ class TreeNode:
 
 class Solution:
     def isSubtree(self, root: TreeNode, subRoot: TreeNode) -> bool:
-        if not root:
-            return False
-        return self.isSameTree(root, subRoot) or \
-               self.isSubtree(root.left, subRoot) or \
-               self.isSubtree(root.right, subRoot)
+        def isEqual(root1, root2):
+            if not (root1 and root2):
+                return root1 == root2
+            return root1.val == root2.val and \
+                   isEqual(root1.left, root2.left) and \
+                   isEqual(root1.right, root2.right)
 
-    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
-        # q and p are both None
-        if not p and not q:
-            return True
-        # one of p and q is None
-        if not p or not q:
-            return False
-        if p.val != q.val:
-            return False
-        return self.isSameTree(p.right, q.right) and \
-               self.isSameTree(p.left, q.left)
+        def dfs(root, subRoot):
+            if not root:
+                return False
+            return isEqual(root, subRoot) or \
+                   dfs(root.left, subRoot) or \
+                   dfs(root.right, subRoot)
+
+        return dfs(root, subRoot)
 
 
 if __name__ == "__main__":
