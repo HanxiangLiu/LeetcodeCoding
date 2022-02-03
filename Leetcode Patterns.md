@@ -33,3 +33,4 @@
 29. [572] Subtree of Another Tree
 30. [226] Invert Binary Tree
 31. [001] Two Sum
+32. [977] Squares of a Sorted Array
