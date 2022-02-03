@@ -34,3 +34,4 @@
 30. [226] Invert Binary Tree
 31. [001] Two Sum
 32. [977] Squares of a Sorted Array
+33. [844] Backspace String Compare
