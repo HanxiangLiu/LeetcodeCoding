@@ -1,3 +1,3 @@
 ## README
 
-- [Leetcode Patterns](Leetcode Patterns.md)
+- [Leetcode Patterns](https://github.com/HanxiangLiu/LeetcodeCoding/blob/master/Leetcode%20Patterns.md)
