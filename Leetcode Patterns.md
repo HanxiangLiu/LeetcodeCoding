@@ -36,3 +36,4 @@
 32. [977] Squares of a Sorted Array
 33. [844] Backspace String Compare
 34. [169] Majority Element
+35. [2022] Convert 1D Array Into 2D Array
