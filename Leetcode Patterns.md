@@ -35,3 +35,4 @@
 31. [001] Two Sum
 32. [977] Squares of a Sorted Array
 33. [844] Backspace String Compare
+34. [169] Majority Element
