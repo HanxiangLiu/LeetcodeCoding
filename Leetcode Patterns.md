@@ -35,6 +35,8 @@
 31. [001] Two Sum
 32. [977] Squares of a Sorted Array
 33. [844] Backspace String Compare
-34. [169] Majority Element
-35. [2022] Convert 1D Array Into 2D Array
-36. [238] Product of Array Except Self
+34. [1065] Index Pairs of a String
+35. [169] Majority Element
+36. [2022] Convert 1D Array Into 2D Array
+37. [238] Product of Array Except Self
+38. [287] Find the Duplicate Number
