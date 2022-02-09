@@ -40,3 +40,4 @@
 36. [2022] Convert 1D Array Into 2D Array
 37. [238] Product of Array Except Self
 38. [287] Find the Duplicate Number
+39. [442] Find All Duplicates in an Array
