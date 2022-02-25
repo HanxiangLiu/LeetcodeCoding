@@ -41,3 +41,4 @@
 37. [238] Product of Array Except Self
 38. [287] Find the Duplicate Number
 39. [442] Find All Duplicates in an Array
+40. [073] Set Matrix Zeroes
